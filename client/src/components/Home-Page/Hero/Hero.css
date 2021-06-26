@@ -1,0 +1,147 @@
+
+.hero{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0.5))), url('../../Images/hero-image.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../../Images/hero-image.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../../Images/hero-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em 1em;
+    color:#fff;
+}
+.hero-split div{
+    margin-bottom: 2em;
+}
+.hero-split div:nth-child(2){
+    margin-bottom: 4em;
+}
+.hero-1{
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    font-size: 1.4rem;
+}
+
+.hero-2{
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 1.4rem;
+}
+.hero-2 span{
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    font-size: 4rem;
+    color: #DE5B5B;
+    display: block;
+}
+.hero-3{
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    font-size: 1rem;
+    color: #cacaca;
+}
+.hero-4{
+    color: #cacaca;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.hero-4 span{
+    display: block;
+}
+
+@media screen and (min-width: 426px) {
+    .hero{
+        padding: 15em 3em;
+    }
+    .hero-1{
+        font-size: 2rem;
+    }
+    
+    .hero-2{
+        font-size: 2rem;
+    }
+    .hero-2 span{
+        letter-spacing: 0.01em;
+        font-size: 4rem;
+    }
+    
+    
+}
+
+@media screen and (min-width: 600px) {
+    .hero{
+        padding: 15em 3em;
+    }
+    .hero-1{
+        font-size: 2.3rem;
+    }
+    
+    .hero-2{
+        font-size: 2.3rem;
+    }
+    .hero-2 span{
+        font-size: 5.5rem;
+        display: inline;
+    }
+    .hero-3{
+        font-size: 0.6rem;
+    }
+    .hero-4{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero{
+        padding: 15em 8em;
+    }
+    .hero-2{
+        font-size: 2.5rem;
+    }
+    .hero-2 span{
+        font-size: 6rem;
+        display: inline;
+    }
+    .hero-3{
+        font-size: 1rem;
+        letter-spacing: 0.3em;
+    }
+    .hero-4{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+}
+@media screen and (min-width: 950px) {
+    .hero{
+        padding: 15em 15em;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .hero{
+        padding: 15em 21em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero{
+        padding: 15em 23em;
+    }
+    .hero-2 span{
+        font-size: 6.5rem;
+        letter-spacing: 0.02em;
+    }
+    .hero-3{
+        font-size: 1.5rem;
+    }
+    .hero-4{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .hero-split div:nth-child(2){
+        margin-bottom: 6em;
+    }
+}

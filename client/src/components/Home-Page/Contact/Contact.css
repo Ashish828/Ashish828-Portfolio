@@ -1,0 +1,158 @@
+.contact-section{
+    background-color: #DE5B5B;
+    border-radius: 0.9em;
+    color: white;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 2rem;
+}
+
+.contact-section h2{
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+.contact-container{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.contact-container p{
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+form{
+    width: 100%;
+}
+input{
+    width: 75%;
+    display: block;
+    height: 100%;
+    height: 2em;
+    max-width: 225px;
+}
+input,textarea{
+    background-color: #E74242;
+    border: none;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25em;
+    color: white;
+    letter-spacing: 0.05em;
+    font-size: 1.4rem;
+    font-weight:500;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+textarea{
+    
+    width: 90%;
+    height: 10em;
+    max-width: 350px;
+    resize: none;
+}
+
+::-webkit-input-placeholder{
+    color: #FF7878;
+    letter-spacing: 0.1em;
+}
+
+::-moz-placeholder{
+    color: #FF7878;
+    letter-spacing: 0.1em;
+}
+
+:-ms-input-placeholder{
+    color: #FF7878;
+    letter-spacing: 0.1em;
+}
+
+::-ms-input-placeholder{
+    color: #FF7878;
+    letter-spacing: 0.1em;
+}
+
+::placeholder{
+    color: #FF7878;
+    letter-spacing: 0.1em;
+}
+
+.submit-button{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 47px;
+    padding: 0.8em 1.6em;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.submit-button:hover,
+.submit-button:focus{
+    color: #DE5B5B;
+    background-color: #FFFFFF;
+}
+
+.messageOutput-container{
+    margin: 0 auto;
+    background-color: #DE5B5B;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3em;
+    padding: 0.2em;
+    max-width:600px;
+}
+.messageOutput{
+    text-align: center;
+}
+.true{
+    color:tomato;
+    background-color: white;
+}
+
+
+@media screen and (min-width: 426px) {
+    .contact-section h2{
+        font-size: 4rem;
+        margin-bottom: 2.7rem;
+    }
+    .contact-container p{
+        font-size: 1.7rem;
+        margin-bottom: 1.8rem;
+    }
+    input{
+        height: 2.4em;
+    }
+    input,textarea{
+        
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+    textarea{
+        height: 12em;
+    }
+    .submit-button{
+        padding:0.6em 1.4em;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .contact-container{
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+}

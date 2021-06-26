@@ -1,0 +1,72 @@
+
+.Personal-details-conatiner{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.personal-details-header{
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.details-split{
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.details-split span{
+    display: block;
+}
+.details-1 p {
+    color: #DE5B5B;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+}
+.details-2 p {
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+}
+.details-1 p:nth-child(3){
+    margin-bottom: 2.2em;
+}
+.highlight{
+    text-transform: uppercase;
+    background-color: #DE5B5B;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.4em 0.8em;
+    text-align: center;
+}
+
+@media screen and (min-width: 426px) {
+    .personal-details-header{
+        font-size: 3rem;
+    }
+    .details-split p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 600px) {
+    .personal-details-header{
+        font-size: 3.2rem;
+    }
+    .details-split p{
+        font-size: 1.7rem;
+    }
+    
+}

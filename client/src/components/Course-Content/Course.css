@@ -1,0 +1,114 @@
+
+.certificate-section{
+    width: 100%;
+    
+}
+.certificate-section h2{
+    margin: 1em auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: white;
+}
+.certificate-split{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 3%;
+    width: 100%;
+}
+.certificate-img{
+    width: 100%;
+}
+.div-1{
+    margin-right: 5%;
+}
+.certificate-split div p{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+.credentials{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 0.6em;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid white;
+    padding: 6px 12px;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
+}
+
+.credentials:active,
+.credentials:link,
+.credentials:visited{
+    color: black;
+}
+.credentials:hover{
+    background-color: #ff4757;
+    border: 1px solid #ff4757;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 725px) {
+    .certificate-split{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .div-1{
+        margin-right: 0%;
+    }
+    .certificate-split div p{
+        
+        margin-bottom: 6%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .credentials{
+        font-weight: 400;
+        font-size: 0.6rem;
+        padding: 3px 6px;
+    }
+}
+
+.udemy div{
+    width: 100%;
+    margin: 0%;
+}
+.certificate-split div .udemy-single-image{
+    width: 47.5%;
+}
+
+.udemy div p{
+    width: 47.5%;
+}
+@media screen and (max-width: 725px){
+    .certificate-split div .udemy-single-image{
+        width: 100%;
+    }
+    
+    .udemy div p{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 350px){
+    .certificate-section h2{
+       line-height: 2em;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+}
