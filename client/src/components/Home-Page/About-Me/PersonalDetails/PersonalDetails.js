@@ -19,7 +19,7 @@ const PersonalDetails = () => {
                     <p>22-10-2001</p>
                     <p>+91 7358291696</p>
                     <p>ashishhameed007<span>@gmail.com</span></p>
-                    <p>https://ashish828.herokuapp.com/</p>
+                    <p>https://ashish828<span>.herokuapp.com/</span></p>
                     <p>Chennai,TamilNadu.</p>
                     <p className='highlight'>Freelance</p>
                 </div>
