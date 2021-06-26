@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.325bbb75.chunk.css",
+    "main.js": "/static/js/main.f2d286fa.chunk.js",
+    "main.js.map": "/static/js/main.f2d286fa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.45fd4047.js",
+    "runtime-main.js.map": "/static/js/runtime-main.45fd4047.js.map",
+    "static/js/2.fb2c9b5f.chunk.js": "/static/js/2.fb2c9b5f.chunk.js",
+    "static/js/2.fb2c9b5f.chunk.js.map": "/static/js/2.fb2c9b5f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.325bbb75.chunk.css.map": "/static/css/main.325bbb75.chunk.css.map",
+    "static/js/2.fb2c9b5f.chunk.js.LICENSE.txt": "/static/js/2.fb2c9b5f.chunk.js.LICENSE.txt",
+    "static/media/Coursera_HTML_CSS_JS.81cbe777.jpg": "/static/media/Coursera_HTML_CSS_JS.81cbe777.jpg",
+    "static/media/Coursera_PYTHON_CAPSTONE.a41de776.jpg": "/static/media/Coursera_PYTHON_CAPSTONE.a41de776.jpg",
+    "static/media/Coursera_Python_1.503fb259.jpg": "/static/media/Coursera_Python_1.503fb259.jpg",
+    "static/media/Coursera_python_data_stuctures_2.647508c1.jpg": "/static/media/Coursera_python_data_stuctures_2.647508c1.jpg",
+    "static/media/Coursera_python_specialization.b928848e.jpg": "/static/media/Coursera_python_specialization.b928848e.jpg",
+    "static/media/Coursera_python_web_data_3.b188cb1a.jpg": "/static/media/Coursera_python_web_data_3.b188cb1a.jpg",
+    "static/media/Coursera_web_AdvanceResponsive.1211f858.jpg": "/static/media/Coursera_web_AdvanceResponsive.1211f858.jpg",
+    "static/media/Coursera_web_capstone.2f4bdf28.jpg": "/static/media/Coursera_web_capstone.2f4bdf28.jpg",
+    "static/media/Coursera_web_css.b80cdb0f.jpg": "/static/media/Coursera_web_css.b80cdb0f.jpg",
+    "static/media/Coursera_web_html.7a440003.jpg": "/static/media/Coursera_web_html.7a440003.jpg",
+    "static/media/Coursera_web_javaScript.4d936cda.jpg": "/static/media/Coursera_web_javaScript.4d936cda.jpg",
+    "static/media/Resume-of-Ashish_Hameed_C.895f486d.pdf": "/static/media/Resume-of-Ashish_Hameed_C.895f486d.pdf",
+    "static/media/Udemy_JavaScript.78434205.jpg": "/static/media/Udemy_JavaScript.78434205.jpg",
+    "static/media/Udemy_Python.ef50d95b.jpg": "/static/media/Udemy_Python.ef50d95b.jpg",
+    "static/media/Udemy_React-and-Redux_Course.50eb2979.jpg": "/static/media/Udemy_React-and-Redux_Course.50eb2979.jpg",
+    "static/media/coursera_python_4.20abfb5d.jpg": "/static/media/coursera_python_4.20abfb5d.jpg",
+    "static/media/Hero.css": "/static/media/hero-image.a2636b85.jpg",
+    "static/media/icon-instagram.2ab4974f.svg": "/static/media/icon-instagram.2ab4974f.svg",
+    "static/media/icon-linkedin.1863d82d.svg": "/static/media/icon-linkedin.1863d82d.svg",
+    "static/media/icon-twitter.2a9f6425.svg": "/static/media/icon-twitter.2a9f6425.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45fd4047.js",
+    "static/js/2.fb2c9b5f.chunk.js",
+    "static/css/main.325bbb75.chunk.css",
+    "static/js/main.f2d286fa.chunk.js"
+  ]
+}
